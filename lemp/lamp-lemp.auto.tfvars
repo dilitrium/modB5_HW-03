@@ -1,0 +1,6 @@
+zone            = "ru-central1-a"
+folder_id       = "b1gsn7asivb4355ot1ju"
+vm_image_family = "lemp"
+vm_user         = "litium"
+ssh_key_path    = "~/authorized_key.json"
+dns_zone        = "example.com."
