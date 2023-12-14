@@ -1,7 +1,10 @@
 terraform {
+  # Используемая версия Terraform в проекте
+  required_version = "1.5.5"
   required_providers {
     yandex = {
-      source = "yandex-cloud/yandex"
+      source  = "yandex-cloud/yandex"
+      version = "0.100.0"
     }
   }
 }
