@@ -8,13 +8,13 @@ terraform {
     }
   }
 }
-provider "yandex" {
-  token = "y0_AgAAAAByMlwJAATuwQAAAADzoD1RXmKxHLWaStSQsYKFNndskOeCh_M"
-  # service_account_key_file = file("~/authorized_key.json")
-  cloud_id  = "b1g7htbt15eptelpg2hg"
-  folder_id = "b1gsn7asivb4355ot1ju"
-  zone      = "ru-central1-a"
-}
+#provider "yandex" {
+#  token = "y0_AgAAAAByMlwJAATuwQAAAADzoD1RXmKxHLWaStSQsYKFNndskOeCh_M"
+# service_account_key_file = file("~/authorized_key.json")
+#  cloud_id  = "b1g7htbt15eptelpg2hg"
+#  folder_id = "b1gsn7asivb4355ot1ju"
+#  zone      = "ru-central1-a"
+#}
 
 data "yandex_compute_image" "my_image" {
   family = var.instance_family_image
